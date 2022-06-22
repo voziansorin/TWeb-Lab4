@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body{
+    margin-right: 11%;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 0%;
+    background-color: black;
+    color: rgb(158, 158, 158);
+    font-family: Consolas;
+    font-size: 20px;
+    text-decoration: none;
+   }
+
+a{  text-align: center;
+    color: inherit;
+    text-decoration: inherit;
+}
+h3{
+    font-size: 40px;
+    text-align: center;
+}
+
+button:hover {
+    background-color: #494b49;
+    box-shadow: 20px 20px 20px 20px rgba(63, 63, 63, 0.2), 
+    10px 10px 10px 10px rgba(31, 31, 31, 0.19);
+    color: rgb(36, 36, 36);
+    }
+button{
+    font-family: inherit;
+    color:rgb(158, 158, 158);
+    border-radius: 15px;
+    border: none;
+    padding: 10px 12px;
+    background-color: rgb(0, 2, 0);
+    font-size: 20px;
+    transition-duration: 2s;
+    display: inline;
+    margin: auto;
+    width: 30%; 
+    margin-bottom: 2%;
+    margin-left: 2%;
+}
+
+#container{
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+p.indent {
+    text-indent: 30px;
+}
+input{
+    font-family: inherit;
+    border-radius: 9px;
+    margin-top: 7px;
+    margin-bottom: 10px;
+    position: relative;
+    background-color: #242524;
+    color: rgb(158, 158, 158);
+    border: none;
+    padding: 12px 20px;
+    font-size:24px;
+    
+}
+#password{
+    font-family: inherit;
+    width: 28%;
+}
+#pt{
+    font-family: inherit;
+    width: 60%;
+}
+#encode, #decode{
+    width: 45%;
+}
+
+footer {
+    position:absolute;
+    font-size: 15px;
+    bottom:10px;
+    width:90%;
+    height:20px;
+ }
+#foot{
+    margin-left: 9%;
+}
+.container{
+    margin-left: 500px;
+}
+#email, #password1, #password2, #name, #message{
+    width: 40%;
+}
+#message{
+    height: 200px;
+}
+#form{
+    text-align: center;
+}
+#submit{
+    width: 40%;
+}
